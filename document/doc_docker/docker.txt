@@ -1,0 +1,36 @@
+       video : https://www.youtube.com/watch?v=srGiAlnNsDU&list=PLxr551TUsmApVwBMzhtLqrWqcKQs4sh19&index=6 (configuration mysql vers la fin)
+               https://www.youtube.com/watch?v=QIBEElpFmb0 (premier app depolyer avec docker voir vers la fin)(au debut important explique le cycle de vie des docker)
+               https://www.youtube.com/watch?v=QIBEElpFmb0 (explique toute la config de l'api rest docker dockerfile client docker pouvoir acceder a partir de windows)
+
+
+ NB : avant d'installer docker s'assurer de la version de ubunto qui doit etre compatible avec la version de docker installer on verifie sa dans la doc
+           doc docker (https://docs.docker.com/engine/install/ubuntu/)
+                                                     
+
+
+
+                                                - apres avoir tous configurer notre machine virtuel
+
+                                                         1) installer docker 
+      -  curl -fsSL https://get.docker.com -o get-docker.sh   (sudo apt-get install curl (si curl n est pas encr installer) apres ceci tapez la commande suivante
+
+      -  sudo sh get-docker.sh
+
+      apres installation verifier la version de docker 
+
+      - docker version
+
+  2) acceder au immage docker:  https://hub.docker.com/
+
+     - sudo  docker run image_name  (fait la pul dell'immage si sa n'existe pas dans le docker engine et apres creer l'immage)
+     - sudo docker run -d immage_name (execute en arriere plan)
+     - sudo docker run -d immage_name :tag(le tag c est la version sesi pour excecuter une version specifique)
+     - sudo docker ps (liste les conteneur en cour d'execution)
+     - sudo docker ps -a (liste les conteneur en cour non in d'execution)
+     - sudo docker start id_immagine (restart immagine che è stata spenta)
+     - sudo docker immages (pour voir les immages )
+     - sudo docker stop id container(pour arreter un container)
+     -sudo docker run -d -p 8082:80 nginx(nom du server web) (pour mapper le port d'un server web pour que se soit accessible de l'exterieur)
+
+
+     

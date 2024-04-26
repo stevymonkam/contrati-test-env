@@ -1,0 +1,6 @@
+suivre les 2 video pour lìinstallation et la configuration de la macchine virtuel
+- https://www.youtube.com/watch?v=1vYiF8x9GMw&list=PLxr551TUsmApVwBMzhtLqrWqcKQs4sh19&index=3 (installation vbox)
+- https://www.youtube.com/watch?v=S9m0mTXZEC8&list=PLxr551TUsmApVwBMzhtLqrWqcKQs4sh19&index=5 (configuration vbox) NB: bien suivre la partie de la configuration de l'ip della machine virtuel strumenti -> creer -> ipv4)
+pour changer la password de ubuntu: sudo passwd stevy( c est le nom de l'host)
+voir l'ip de va virtual macchine : ip a
+installer oepn ssh:  sudo apt-get install open-ssh (pour pouvoir acceder alla virtuel macchine en ssh avec puty ou git bash sur le meme host)

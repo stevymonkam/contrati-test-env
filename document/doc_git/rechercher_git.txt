@@ -1,0 +1,18 @@
+pour creer une branche : git checkout -b featur/nem-1   ( git checkout -b ) commande pour creer la branche  featur/nem-1 (nom de la branche)
+pour faire le commit :
+- se placer sur le projet
+- git add . (git add espace .) me met le projet dans la zone d'index mais n'as encr rien sauvegarder)
+- git status me fais voir ce qui a ètè ajouter dans la zone d'index (facultatif)
+-git commit commit -m "nom du commit" (-m pour message)
+
+important (quand on travaille seul)
+
+pour passer d'un commit a un autre pour changer de versione de commit :
+
+- git log (me montre tout les commits que j'ai deja realiser)
+- git checkout "on colle ici l'instance de la branche"
+
+pusher sur le server git
+- git push -u origin master (master c est le nom de la branche)
+
+apres la push quand le projet est deja sur git on fait la git pull pour recupere les modifications

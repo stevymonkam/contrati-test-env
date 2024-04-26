@@ -1,0 +1,40 @@
+voir la video : https://www.youtube.com/watch?v=QIBEElpFmb0
+
+dopo essere collegato a la macchina virtuale: digitare questo commando 
+
+ - sudo nano /lib/systemd/system/docker.service
+  
+dopo dirigersi verso questa riga e modificarla aggiungendo -H=tcp://0.0.0.0:2375 prima --containerd (0.0.0.0 per dire che è raggiungibile da per tutto  2375 il port)
+
+dopo ctrl-> o per registrare premiere enter
+e puo ctrl -> x per uscire
+
+dopo reload the docker daemon
+
+sudo systemctl daemon-reload
+sudo service docker restart
+
+per testare :
+andare su browser di google : http://192.168.76.3:2375/images/json (192.168.76.3 adress de la macchine virtuel)
+
+                               adesso dopo questo insatall choco
+
+Steps to Install chocolatey/choco on Windows 10 (anche 11 va bene)
+Click Start and type “powershell“ (non è l'invito di comando classico)
+Right-click Windows Powershell and choose “Run as Administrator“
+Paste the following command into Powershell and press enter.
+
+- Set-ExecutionPolicy Bypass -Scope Process -Force; `
+  iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+
+dopo adesso accedere a l'invito di commando come administratore e digitare :
+   - choco install docker-cli
+
+adesso si deve sincronizzare il docker-cli con il docker engine di lunix
+creare una variabile ambientale (nom: DOCKER_HOST  valore :tcp://0.0.0.0:2375) e puo chiudere e riaprire l'invito di comando
+
+
+
+
+

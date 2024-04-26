@@ -1,0 +1,4 @@
+pour ne pas faire d'erreur en lancant le projet git je doit entre et me placer sur le dossier a l'interrieur avent d'ovrir le server git
+
+exemple : mes projets -> contratti -> je me place sur le dossier ici pour lancer git ou pour ouvrir le projet 
+          mes projets -> ebanking-> je me place sur le dossier ici pour lancer git ou pour ouvrir le projet (car le dossier ebanking ici a ete creer par git)

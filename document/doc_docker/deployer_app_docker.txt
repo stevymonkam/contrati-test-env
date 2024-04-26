@@ -1,0 +1,13 @@
+voir cette video : https://www.youtube.com/watch?v=QIBEElpFmb0
+
+apres avoir finis de faire tous ce qui est dans le file install_docker_cli_sur_windows
+
+aller sur le projet et creer un: Dockerfile configurer
+en suite :
+
+- mvn package (si sa ne done pas sur le terminale de intellij aller sur le terminal de windows)
+- docker build -t demo(projetname) .(ne pas oublier le point)
+
+- docker run -d -p 8087:8080 demo(projetname)
+
+aller sur le browser http://192.168.76.3:8087/test

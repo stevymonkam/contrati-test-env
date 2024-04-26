@@ -1,0 +1,5 @@
+john = union matematique entre 2 tables exemple A(F1,F2,F3,F4) B(F2,F4,F7,F8)  A U B = (F1,F2,F3,F4,F7,F8) 
+INNER JOHN = A n B 
+LEFT JOIN = union des 2 tables a gauche cet a dire faire union des elements de la table B qui appartienent a la table A et les elements de la table A
+exemple A(F1,F2,F3,F4) B(F2,F4,F7,F8)  A left joihn B = (F1,F2,F3,F4)  NOTE :  A left joihn B = (A n B) U A 
+voir ici : (https://waytolearnx.com/2019/10/difference-entre-inner-join-et-left-join.html) pour plus d'explication
